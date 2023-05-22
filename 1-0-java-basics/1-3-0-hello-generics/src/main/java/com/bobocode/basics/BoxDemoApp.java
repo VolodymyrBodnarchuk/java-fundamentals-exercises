@@ -1,4 +1,5 @@
 package com.bobocode.basics;
+import java.lang.*;
 
 /**
  * This demo demonstrates why using Object is not safe. It's not safe because runtime casting can cause runtime

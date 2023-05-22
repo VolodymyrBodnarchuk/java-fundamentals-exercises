@@ -5,12 +5,16 @@ package com.bobocode.cs;
  * {@link Queue#poll()} are performed in constant time O(1)
  */
 public interface Queue<T> {
+
+
     /**
      * Adds an element to the end of the queue.
      *
      * @param element the element to add
      */
     void add(T element);
+
+
 
     /**
      * Retrieves and removes queue head.
